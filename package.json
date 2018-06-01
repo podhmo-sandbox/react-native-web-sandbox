@@ -4,5 +4,8 @@
     "react-art": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-native-web": "^0.7.3"
+  },
+  "devDependencies": {
+    "create-react-app": "^1.5.2"
   }
 }
