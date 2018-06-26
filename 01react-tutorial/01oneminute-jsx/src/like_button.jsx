@@ -4,13 +4,9 @@ import React, {Component} from '@/react';
 import ReactDOM from '@/react-dom';
 
 class LikeButton extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { liked: false };
-    this.push = this.push.bind(this);
-  }
+  state = { liked: false };
 
-  push() {
+  push = () => {
     this.setState({liked: true});
   }
 

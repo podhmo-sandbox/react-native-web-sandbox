@@ -6,7 +6,15 @@
         "rootPathPrefix": "@",
         "rootPathSuffix": "node_modules/"
       }
+    ],
+    [
+      "babel-plugin-transform-class-properties",
+      {
+        "spec": true
+      }
     ]
   ],
-  "presets": ["react"]
+  "presets": [
+    "react"
+  ]
 }
