@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-root-import",
+      {
+        "rootPathPrefix": "@",
+        "rootPathSuffix": "node_modules/"
+      }
+    ]
+  ],
+  "presets": ["react"]
+}
