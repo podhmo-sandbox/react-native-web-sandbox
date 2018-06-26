@@ -7,6 +7,7 @@ class LikeButton extends Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
+    this.push = this.push.bind(this);
   }
 
   push() {
@@ -22,7 +23,7 @@ class LikeButton extends Component {
     }
 
     return (
-      <button onClick={this.push.bind(this)}>Like</button>
+      <button onClick={this.push}>Like</button>
     );
   }
 }
